@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151f1eff-a38e-46bc-98fa-0fe618c971e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuarioSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFlatMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilterEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilterEmpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduceEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduceEnteros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +63,7 @@
       <recent name="com.uduran.api.stream.ejemplos.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploStreamOperadorDisctinctUsuario">
+  <component name="RunManager" selected="Application.EjemploStreamOperadorDisctinctUsuarioSum">
     <configuration name="EjemploStreamOperadorDisctinctUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDisctinctUsuario" />
       <module name="api_stream" />
@@ -68,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploStreamOperadorDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDistinct" />
+    <configuration name="EjemploStreamOperadorDisctinctUsuarioSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDisctinctUsuarioSum" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploStreamOperadorDisctinctUsuarioSum" />
         <item itemvalue="Application.EjemploStreamOperadorDisctinctUsuario" />
         <item itemvalue="Application.EjemploStreamOperadorRango" />
         <item itemvalue="Application.EjemploStreamOperadorReduceEnteros" />
         <item itemvalue="Application.EjemploStreamOperadorReduce" />
-        <item itemvalue="Application.EjemploStreamOperadorDistinct" />
       </list>
     </recent_temporary>
   </component>

@@ -8,7 +8,6 @@ import java.util.stream.Stream;
 public class EjemploStreamOperadorMap {
     public static void main(String[] args) {
 
-        //Map siempre devuelve el resultado cambiado por que es una Function
         Stream<String> nombres = Stream.of("Pato", "Paco", "Pepa", "Pepe")
                 //.peek(System.out::println)
                 .map(String::toUpperCase)

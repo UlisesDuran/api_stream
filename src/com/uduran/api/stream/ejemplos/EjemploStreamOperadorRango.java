@@ -2,12 +2,10 @@ package com.uduran.api.stream.ejemplos;
 
 import java.util.IntSummaryStatistics;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class EjemploStreamOperadorRango {
     public static void main(String[] args) {
 
-        //Map siempre devuelve el resultado cambiado por que es una Function
         IntStream enteros = IntStream.range(1, 200).peek(System.out::println);
 
         //int resultado = enteros.reduce(0, Integer::sum);
