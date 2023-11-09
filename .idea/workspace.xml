@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151f1eff-a38e-46bc-98fa-0fe618c971e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/EjemploStreamOperadorFilterEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/EjemploStreamOperadorReduceEnteros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +54,9 @@
       <recent name="com.uduran.api.stream.ejemplos.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploStreamOperadorRango">
-    <configuration name="EjemploStreamOperadorDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDistinct" />
+  <component name="RunManager" selected="Application.EjemploStreamOperadorDisctinctUsuario">
+    <configuration name="EjemploStreamOperadorDisctinctUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDisctinctUsuario" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploStreamOperadorFilterEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.modelos.EjemploStreamOperadorFilterEmpty" />
+    <configuration name="EjemploStreamOperadorDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDistinct" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.modelos.*" />
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="EjemploStreamOperadorReduceEnteros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.modelos.EjemploStreamOperadorReduceEnteros" />
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorReduceEnteros" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.modelos.*" />
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploStreamOperadorDisctinctUsuario" />
         <item itemvalue="Application.EjemploStreamOperadorRango" />
         <item itemvalue="Application.EjemploStreamOperadorReduceEnteros" />
         <item itemvalue="Application.EjemploStreamOperadorReduce" />
         <item itemvalue="Application.EjemploStreamOperadorDistinct" />
-        <item itemvalue="Application.EjemploStreamOperadorFilterEmpty" />
       </list>
     </recent_temporary>
   </component>

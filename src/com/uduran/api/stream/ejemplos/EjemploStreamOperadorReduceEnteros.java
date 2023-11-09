@@ -1,4 +1,4 @@
-package com.uduran.api.stream.ejemplos.modelos;
+package com.uduran.api.stream.ejemplos;
 
 import java.util.stream.Stream;
 
