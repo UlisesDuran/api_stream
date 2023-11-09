@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151f1eff-a38e-46bc-98fa-0fe618c971e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/EjemploStreamOperadorFilterEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/EjemploStreamOperadorReduceEnteros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,17 +50,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uduran.api.stream.ejemplos" />
+      <recent name="com.uduran.api.stream.ejemplos.modelos" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="EjemploStreamOperadorMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorMap" />
+  <component name="RunManager" selected="Application.EjemploStreamOperadorRango">
+    <configuration name="EjemploStreamOperadorDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDistinct" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -59,9 +74,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploStreamOperadorFilterEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.modelos.EjemploStreamOperadorFilterEmpty" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.modelos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamOperadorRango" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorRango" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamOperadorReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorReduce" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamOperadorReduceEnteros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.modelos.EjemploStreamOperadorReduceEnteros" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.modelos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploStreamOperadorMap" />
+        <item itemvalue="Application.EjemploStreamOperadorRango" />
+        <item itemvalue="Application.EjemploStreamOperadorReduceEnteros" />
+        <item itemvalue="Application.EjemploStreamOperadorReduce" />
+        <item itemvalue="Application.EjemploStreamOperadorDistinct" />
+        <item itemvalue="Application.EjemploStreamOperadorFilterEmpty" />
       </list>
     </recent_temporary>
   </component>
