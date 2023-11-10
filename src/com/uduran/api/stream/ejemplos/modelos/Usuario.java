@@ -1,8 +1,12 @@
 package com.uduran.api.stream.ejemplos.modelos;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Usuario {
+
+    private List<Factura> facturas;
     private String usuario;
     private String contraseña;
 
@@ -14,6 +18,16 @@ public class Usuario {
         this.usuario = usuario;
         this.contraseña = contraseña;
         this.id = ++this.ultimoId;
+        this.facturas = new ArrayList<>();
+    }
+
+    public List<Factura> getFacturas(){
+        return facturas;
+    }
+
+    public void addFactura(Factura factura){
+        this.facturas.add(factura);
+        factura.setUsuario(this);
     }
 
     public int getId() {

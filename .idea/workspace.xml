@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151f1eff-a38e-46bc-98fa-0fe618c971e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuarioSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamFlatMapFactura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamListToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Factura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDisctinctUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilterEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorFilterEmpty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorRango.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduceEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduceEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +46,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uduran.api.stream.ejemplos" />
       <recent name="com.uduran.api.stream.ejemplos.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploStreamOperadorDisctinctUsuarioSum">
-    <configuration name="EjemploStreamOperadorDisctinctUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorDisctinctUsuario" />
+  <component name="RunManager" selected="Application.EjemploStreamParallel">
+    <configuration name="EjemploStreamFlatMapFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamFlatMapFactura" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamGenerate" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamListToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamListToStream" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -90,34 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploStreamOperadorRango" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorRango" />
-      <module name="api_stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploStreamOperadorReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorReduce" />
-      <module name="api_stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploStreamOperadorReduceEnteros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorReduceEnteros" />
+    <configuration name="EjemploStreamParallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamParallel" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploStreamParallel" />
+        <item itemvalue="Application.EjemploStreamFlatMapFactura" />
+        <item itemvalue="Application.EjemploStreamGenerate" />
+        <item itemvalue="Application.EjemploStreamListToStream" />
         <item itemvalue="Application.EjemploStreamOperadorDisctinctUsuarioSum" />
-        <item itemvalue="Application.EjemploStreamOperadorDisctinctUsuario" />
-        <item itemvalue="Application.EjemploStreamOperadorRango" />
-        <item itemvalue="Application.EjemploStreamOperadorReduceEnteros" />
-        <item itemvalue="Application.EjemploStreamOperadorReduce" />
       </list>
     </recent_temporary>
   </component>
