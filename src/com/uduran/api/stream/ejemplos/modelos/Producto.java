@@ -1,13 +1,14 @@
 package com.uduran.api.stream.ejemplos.modelos;
 
-public class Productos {
+public class Producto {
     private double precio;
-    private int cantidad;
+    private int pedidoMin;
 
-    public Productos(double precio, int cantidad) {
+    public Producto(double precio, int pedidoMin) {
         this.precio = precio;
-        this.cantidad = cantidad;
+        this.pedidoMin = pedidoMin;
     }
+
 
     public double getPrecio() {
         return precio;
@@ -17,11 +18,11 @@ public class Productos {
         this.precio = precio;
     }
 
-    public int getCantidad() {
-        return cantidad;
+    public int getPedidoMin() {
+        return pedidoMin;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setPedidoMin(int pedidoMin) {
+        this.pedidoMin = pedidoMin;
     }
 }

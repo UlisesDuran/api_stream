@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151f1eff-a38e-46bc-98fa-0fe618c971e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/tareas/Tarea31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/tareas/Tarea32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/modelos/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/tareas/Tarea33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/tareas/Tarea34.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uduran/api/stream/ejemplos/EjemploStreamOperadorReduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,35 +57,9 @@
       <recent name="com.uduran.api.stream.ejemplos.modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tarea32">
-    <configuration name="EjemploStreamFlatMapFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamFlatMapFactura" />
-      <module name="api_stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploStreamOperadorReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamOperadorReduce" />
-      <module name="api_stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uduran.api.stream.ejemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploStreamParallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamParallel" />
+  <component name="RunManager" selected="Application.Tarea34">
+    <configuration name="EjemploStreamListToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.ejemplos.EjemploStreamListToStream" />
       <module name="api_stream" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +97,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tarea33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.tareas.Tarea33" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.tareas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tarea34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uduran.api.stream.tareas.Tarea34" />
+      <module name="api_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uduran.api.stream.tareas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tarea34" />
+        <item itemvalue="Application.EjemploStreamListToStream" />
+        <item itemvalue="Application.Tarea33" />
         <item itemvalue="Application.Tarea32" />
         <item itemvalue="Application.Tarea31" />
-        <item itemvalue="Application.EjemploStreamOperadorReduce" />
-        <item itemvalue="Application.EjemploStreamParallel" />
-        <item itemvalue="Application.EjemploStreamFlatMapFactura" />
       </list>
     </recent_temporary>
   </component>
