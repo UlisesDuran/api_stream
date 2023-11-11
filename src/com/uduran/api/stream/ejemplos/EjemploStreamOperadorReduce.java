@@ -8,7 +8,7 @@ public class EjemploStreamOperadorReduce {
         Stream<String> usuarios = Stream.of("specter 1234duran", "alex 2010alexis", "Pepa mariana0508", "Pepe gerardoduran042",
                 "Pepe gerardoduran042", "Pepe gerardoduran042", "Pepe gerardoduran042")
                 .distinct();
-        String resultado = usuarios.reduce("resultado =", (a, b) -> a+ ", " + b);
+        String resultado = usuarios.reduce("resultado =", (a, b) -> a + ", " + b);
         System.out.println(resultado);
     }
 }
